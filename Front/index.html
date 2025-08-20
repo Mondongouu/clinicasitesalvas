@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion Medicos</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <h1>Gestion De Medicos</h1>
+    <form id="medicoForm">
+        <label for="idMedico">ID Medico</label>
+        <input type="text" id="idMedico" required>
+
+        <label for="identificacion">Identificacion</label>
+        <input type="text" id="identificacion" required>
+
+        <label for="nombres">Nombres</label>
+        <input type="text" id="nombres" required>
+
+        <label for="telefono">Telefono</label>
+        <input type="text" id="telefono" required>
+
+        <label for="correo">Correo</label>
+        <input type="text" id="correo" required>
+
+        <button>Guardar Medico</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>ID Medico</th>
+                <th>Identificacion</th>
+                <th>Nombres</th>
+                <th>Telefono</th>
+                <th>Correo</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="tablaMedicosBody">
+
+        </tbody>
+    </table>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
